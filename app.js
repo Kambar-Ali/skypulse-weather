@@ -78,9 +78,9 @@ const initApp = () => {
     city.querySelector('img').src = ''; // Remove flag on load
     temperature.querySelector('img').src = ''; // Remove weather icon
     temperature.querySelector('span').innerText = ''; // Clear temperature
-    description.innerText = '0'; // Clear weather description
-    clouds.innerText = '0'; // Clear clouds
-    humidity.innerText = '0'; // Clear humidity
-    pressure.innerText = '0'; // Clear pressure
+    description.innerText = ''; // Clear weather description
+    clouds.innerText = ''; // Clear clouds
+    humidity.innerText = ''; // Clear humidity
+    pressure.innerText = ''; // Clear pressure
 }
 initApp();
